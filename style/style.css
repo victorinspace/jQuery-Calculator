@@ -1,0 +1,73 @@
+/********************** 
+	Resets & Variables
+**********************/
+:root {
+	--number-inputs-color: #eb42f4;
+	--math-operators-color: #bf35c6;
+	--container-bg-color: #ef3ec8;
+}
+
+html {
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+/********************** 
+	Main Stlyez 
+**********************/
+body {
+	background: black;
+}
+
+#container {
+	width: 1000px;
+	margin: 20px auto 0;
+	padding: 20px;
+	font-family: sans-serif;
+	background: var(--container-bg-color);
+}
+
+#answer {
+	font-weight: lighter;
+	text-align: center;
+	padding: 20px 0;
+	font-size: 5em;
+	color: white;
+	display: block;
+}
+
+#middle {
+	width: 75%;
+	margin: auto;
+	padding: 20px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.number-inputs {
+	padding: 20px;
+	width: 300px;
+	font-size: 16px;
+	color: var(--number-inputs-color);
+}
+
+::placeholder {
+	color: var(--number-inputs-color);
+}
+
+#bottom {
+	width: 75%;
+	margin: auto;
+	padding: 20px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.math-operators {
+	padding: 20px;
+	font-size: 18px;
+	color: var(--math-operators-color)
+}

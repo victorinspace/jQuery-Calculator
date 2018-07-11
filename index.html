@@ -6,15 +6,24 @@
 	<link rel="stylesheet" href="style/style.css">
 </head>
 <body>
-	<h1 id="answer">Mathematical!</h1>
+	
+	<div id="container">
+		<div id="top">
+			<h1 id="answer">Mathematical!</h1>
+		</div>
+		
+		<div id="middle">
+			<input id="num_one" class="number-inputs" type="text" placeholder="First Number">
+			<input id="num_two" class="number-inputs" type="text" placeholder="Second Number">
+		</div>
 
-	<input id="num_one" type="text">
-	<input id="num_two" type="text">
-
-	<button id="add">Add</button>
-	<button id="subtract">Subtract</button>
-	<button id="multiply">Multiply</button>
-	<button id="divide">Divide</button>
+		<div id="bottom">
+			<button id="add" class="math-operators">+</button>
+			<button id="subtract" class="math-operators">-</button>
+			<button id="multiply" class="math-operators">x</button>
+			<button id="divide" class="math-operators">/</button>
+		</div>
+	</div>
 
 	<script
   src="https://code.jquery.com/jquery-3.3.1.min.js"
